@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>SeaSide</title>
+   <link rel="stylesheet" href="./css/components.css">
+   <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+   <!-- header -->
+   <header class="header center">
+      <div class="header__logo">
+         <a href="./index.html"><img src="img/logo.png" alt="seaSide"></a>
+      </div>
+      <nav class="header__nav">
+         <a class="header__link" href="/index.html">Описание</a>
+         <a class="header__link" href="/index.html">Тарифы</a>
+         <a class="header__link" href="/index.html">FAQ</a>
+         <a class="header__link" href="/index.html">Реферальная система</a>
+      </nav>
+      <div class="header__btns">
+         <a href="/basket.html" class="header__btn">Корзина</a>
+         <a href="/account.html" class="header__btn">Войти</a>
+      </div>
+      <div id="nav-icon1">
+         <span></span>
+         <span></span>
+         <span></span>
+      </div>
+   </header>
+
+   <!-- Корзина -->
+   <section class="basket center">
+      <div class="basket__content">
+         <div class="basket__title">
+            <h1>Корзина</h1>
+         </div>
+         <div class="basket__subtitle subtitle">Внимание! Проект будет предоставлен в течение 24ч после оплаты!</div>
+         <div class="basket__blocks">
+            <div class="basket__left">
+               <div class="basket__left-header">
+                  <div class="basket__left-header-tariff">
+                     <div class="basket__left-tariff">
+                        <h2>Тариф: Базовый</h2>
+                     </div>
+                     <div class="basket__left-price">
+                        <h4 id="result">1500 ₽</h4>
+                        <div class="tariff__blok-sale basket__blok-sale">
+                           <p id="undiscounted">3000 ₽</p>
+                           <p>Скидка 50%</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="basket__left-header-time">
+                     <h3>Период заказа:</h3>
+                     <div class="basket__dropdown-wrapper">
+                        <select class="basket__dropdown" value="1" name="perids" id="period">
+                           <option value="1">1 Месяц</option>
+                           <option value="3">3 Месяца</option>
+                           <option value="6">6 Месяца</option>
+                           <option value="12">12 Месяца</option>
+                        </select>
+                     </div>
+                  </div>
+               </div>
+               <form action="" method="get" class="basket__left-forms">
+                  <div class="basket__left-form">
+                     <label for="name">Имя сайта</label>
+                     <input type="text" name="name" id="name" required placeholder="Название проекта">
+                  </div>
+                  <div class="basket__left-form">
+                     <label for="name">Вы уже купили домен?</label>
+                     <input type="text" name="name" id="name" required placeholder="Доменное имя">
+                  </div>
+               </form>
+               <div class="basket__left-footer">
+                  <div class="basket__left-text">
+                     Если вы не укажете доменное имя, вам будет выдан домен третьего уровня.
+                     Он будет состоять из названия сайта <span>site_name.ssda.gq</span><br>
+                     Имя проекта и его доменное имя можно будет изменить в личном кабинете в любое время.
+                     Не забудьте поменять DNS записи у регистратора домена ns1.firstvds.ru ns2.firstvds.ru !!!
+                  </div>
+                  <div class="basket__left-clear">
+                     <img src="./img/clear.svg" alt="clear">
+                  </div>
+               </div>
+            </div>
+            <div class="basket__right">
+               <form action="" method="get" class="basket__right-form" id="price">
+                  <div class="basket__right-title">
+                     <p>Тариф: Базовый (1 месяц)</p>
+                     <p id="elem1">1500.00 ₽ </p>
+                  </div>
+                  <div class="basket__right-prome">
+                     <p>Промокод</p>
+                     <img src="/img/question.svg" alt="question" onmouseover="changeItem()" onmouseout="rechangeItem()" >
+                     <div class="basket__right-prome-text" id="one-two">
+                        Если у вас есть промокод - укажите его здесь. Внимание! Итоговая цена будет пересчитана в соответствии с условиями промокода
+                     </div>
+                  </div>
+                  <div class="basket__right-promocode">
+                     <input type="text" name="name" id="name" required placeholder="P R O X Y B E T A">
+                  </div>
+                  <div class="basket__right-total">
+                     <h2>Итого</h2>
+                     <p id="elem2">1500.00 ₽</p>
+                  </div>
+                  <div class="basket__right-pay">
+                     <input type="submit" value="Оплатить" class="btn">
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+   </section>
+
+
+   <!-- footer -->
+   <footer class="footer center">
+      <div class="footer__content">
+         <div class="footer__conten-top">
+            <div class="header__logo footer__logo">
+               <a href="./index.html"><img src="img/logo.png" alt="seaSide"></a>
+            </div>
+            <nav class="header__nav footer__nav">
+               <a class="header__link footer__link" href="/index.html">Описание</a>
+               <a class="header__link footer__link" href="/index.html">Тарифы</a>
+               <a class="header__link footer__link" href="/index.html">FAQ</a>
+               <a class="header__link footer__link" href="/index.html">Реферальная система</a>
+            </nav>
+            <div class="footer__btns">
+               <a href="/account.html" class="footer__btn"><img src="./img/avatar-footer.svg" alt="avatar-img"></a>
+               <a href="#" class="footer__btn"><img src="./img/country.svg" alt="country-img"></a>
+            </div>
+            <div id="nav-icon1">
+               <span></span>
+               <span></span>
+               <span></span>
+            </div>
+         </div>
+         <div class="footer__conten-bot">
+            <a href="#">Copyrights 2022. Developed by Seaside Digital</a>
+         </div>
+      </div>
+   </footer>
+
+
+
+
+
+   <script src="./js/index.js"></script>
+   <script>
+      let burger = document.getElementById('nav-icon1');
+      burger.addEventListener('click', () => {
+         burger.classList.toggle('open');
+      });
+   </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+   <script>
+      $(function() {
+         $('#period,price').change(function() {
+            const period = $('#period :selected,#price').val();
+            if (period == 1) {
+               document.getElementById('undiscounted').innerHTML =
+                     '3000 ₽';
+               document.getElementById('result').innerHTML =
+                     '1500.00 ₽';
+               document.getElementById('result1').innerHTML =
+                     '1500.00 ₽';
+               document.getElementById('result2').innerHTML =
+                     '1500.00 ₽';
+            } else if (period == 3) {
+               document.getElementById('undiscounted').innerHTML =
+                     '9000 ₽';
+               document.getElementById('result').innerHTML = '4500.00 ₽';
+               document.getElementById('result1').innerHTML = '4500.00 ₽';
+               document.getElementById('result2').innerHTML = '4500.00 ₽';
+            } else if (period == 6) {
+               document.getElementById('undiscounted').innerHTML =
+                     '18000 ₽';
+               document.getElementById('result').innerHTML = '9000.00 ₽';
+               document.getElementById('result1').innerHTML = '9000.00 ₽';
+               document.getElementById('result2').innerHTML = '9000.00 ₽';
+            } else {
+               document.getElementById('undiscounted').innerHTML =
+                     '36000 ₽';
+               document.getElementById('result').innerHTML = '18000.00 ₽';
+               document.getElementById('result1').innerHTML = '18000.00 ₽';
+               document.getElementById('result2').innerHTML = '18000.00 ₽';
+            }
+         })
+  });
+   </script>
+   
+</body>
+
+</html>

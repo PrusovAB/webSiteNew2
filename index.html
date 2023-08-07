@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SeaSide</title>
+  <link rel="stylesheet" href="./css/components.css">
+  <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+  <!-- header -->
+  <header class="header center">
+    <div class="header__logo">
+      <a href="./index.html"><img src="img/logo.png" alt="seaSide"></a>
+    </div>
+    <nav class="header__nav">
+      <a class="header__link" href="#description">Описание</a>
+      <a class="header__link" href="#tariff">Тарифы</a>
+      <a class="header__link" href="#FAQ">FAQ</a>
+      <a class="header__link" href="#program">Реферальная система</a>
+    </nav>
+    <div class="header__btns">
+      <a href="/basket.html" class="header__btn">Корзина</a>
+      <a href="/account.html" class="header__btn">Войти</a>
+    </div>
+    <div id="nav-icon1">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </header>
+  <!-- Автоматизированная система по продаже прокси -->
+  <section class="ideal center">
+    <div class="ideal__blocks">
+      <div class="ideal__left">
+        <div class="ideal__img">
+          <img src="./img/ideal.png" alt="picture">
+        </div>
+      </div>
+      <div class="ideal__right">
+        <div class="ideal__right-block">
+          <div class="ideal__right-subtitle subtitle">
+            Идеальный бизнес
+          </div>
+          <div class="ideal__right-title">
+            <h1>Автоматизированная система по продаже прокси</h1>
+          </div>
+          <div class="ideal__right-btns">
+            <a href="#tariff" class="ideal__btn btn">Заказать</a>
+            <a class="ideal__btn btn">Демо</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Описание системы -->
+  <section class="description center" id="description">
+    <div class="description__blocks">
+      <div class="description__blocks-title">
+        <div class="description__title subtitle">Описание системы</div>
+        <div class="description__logo header__logo">
+          <a href="./index.html"><img src="img/logo-blocks.png" alt="seaSide"></a>
+        </div>
+      </div>
+      <div class="description__text">
+        <p> Прокси-сервер (от англ. proxy — представитель, уполномоченный; часто просто прокси, сервер-посредник)—
+          промежуточный сервер (комплекс программ) в компьютерных сетях, выполняющий роль посредника между пользователем
+          и целевым сервером (при этом о посредничестве могут как знать, так и не знать обе стороны), позволяющий
+          клиентам как выполнять косвенные запросы (принимая и передавая их через прокси-сервер) к другим сетевым
+          службам, так и получать ответы.</p>
+      </div>
+      <div class="description__blocks-ul">
+        <ul class="description__ul">
+          <li class="description__li"> <img src="./img/description/home.svg" alt="home"> Дашборд</li>
+          <li class="description__li"> <img src="./img/description/roll.svg" alt="roll"> Роли</li>
+          <li class="description__li"> <img src="./img/description/site.svg" alt="site">Сайт</li>
+          <li class="description__li"> <img src="./img/description/sample.svg" alt="sample">Шаблоны</li>
+        </ul>
+        <ul class="description__ul">
+          <li class="description__li"> <img src="./img/description/proxy.svg" alt="proxy">Прокси</li>
+          <li class="description__li"> <img src="./img/description/setting.svg" alt="setting">Настройки</li>
+          <li class="description__li"> <img src="./img/description/users.svg" alt="users">Пользователи</li>
+          <li class="description__li"> <img src="./img/description/support.svg" alt="support">Тех. поддержка</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!-- слайдер -->
+  <section class="slider center">
+    <div class="slider__content">
+      <div class="slider__line">
+        <img src="./img/slider.jpg" alt="slider-img" class="slider__img">
+        <img src="./img/slider.jpg" alt="slider-img" class="slider__img">
+        <img src="./img/slider.jpg" alt="slider-img" class="slider__img">
+        <img src="./img/slider.jpg" alt="slider-img" class="slider__img">
+        <img src="./img/slider.jpg" alt="slider-img" class="slider__img">
+      </div>
+
+      <button class="slider__btn-prev">
+        <svg class="arrow-left-3" viewBox="0 0 5 9">
+          <path d="M0.419,9.000 L0.003,8.606 L4.164,4.500 L0.003,0.394 L0.419,0.000 L4.997,4.500 L0.419,9.000 Z" />
+        </svg>
+      </button>
+      <button class="slider__btn-next">
+        <svg class="arrow-left-3" viewBox="0 0 5 9">
+          <path d="M0.419,9.000 L0.003,8.606 L4.164,4.500 L0.003,0.394 L0.419,0.000 L4.997,4.500 L0.419,9.000 Z" />
+        </svg>
+      </button>
+
+      <div class="slider__wrapper">
+        <div class="slider__dot slider__active-dot"></div>
+        <div class="slider__dot"></div>
+        <div class="slider__dot"></div>
+        <div class="slider__dot"></div>
+        <div class="slider__dot"></div>
+      </div>
+
+    </div>
+  </section>
+  <!-- Преимущества -->
+  <section class="advantages center">
+    <div class="advantages__content">
+      <div class="advantages__title subtitle">Преимущества</div>
+      <div class="advantages__blocks">
+        <div class="advantages__block">
+          <h2>Автоматизация</h2>
+          <p>Автоматизированая продажа приватных и общих прокси. Просто добавь порты =)</p>
+        </div>
+        <div class="advantages__block">
+          <h2>Гибкость</h2>
+          <p>Настройка количества человек на 1 порт для общих прокси.</p>
+        </div>
+        <div class="advantages__block">
+          <h2>Управление ценами</h2>
+          <p>Гибкая настройка цен, скидок и периода продажи.</p>
+        </div>
+        <div class="advantages__block">
+          <h2>Интеграция</h2>
+          <p>Простая интеграция с Кракеном, нужен только логин, пароль и ссылка на хост.</p>
+        </div>
+        <div class="advantages__block">
+          <h2>Онлайн оплата</h2>
+          <p>Простая интеграция с платёжными системами.</p>
+        </div>
+        <div class="advantages__block">
+          <h2>Сайт в комплекте</h2>
+          <p>Готовый сайт в комплекте с взможностью настройки и сменой шаблона.</p>
+        </div>
+        <div class="advantages__block">
+          <h2>Авто выдача прокси</h2>
+          <p>Моментальная автоматическая выдача прокси пользователю при покупке.</p>
+        </div>
+        <div class="advantages__block">
+          <h2>Поддержка</h2>
+          <p>Техническая поддержка от разработчиков 24/7.</p>
+        </div>
+        <div class="advantages__block">
+          <h2>Удобство</h2>
+          <p>Трать меньше времени на продажу своих прокси, большая часть автоматизирована</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Зачем нужна система? -->
+  <section class="sistem center">
+    <div class="sistem__content">
+      <div class="sistem__content-left">
+        <div class="sistem__left-img">
+          <img src="./img/sistem.png" alt="sistem">
+        </div>
+      </div>
+      <div class="sistem__content-right">
+        <div class="sistem__blocks-title description__blocks-title">
+          <div class="sistem__title subtitle">Описание системы</div>
+          <div class="sistem__logo header__logo">
+            <a href="./index.html"><img src="img/logo-blocks.png" alt="seaSide"></a>
+          </div>
+        </div>
+        <div class="sistem__text">
+          <p>Прокси-сервер является “заменителем” персонального IP-адреса, а также обеспечивает безопасную связь между
+            устройством и веб-ресурсом.
+            С помощью прокси-сервера онлайн выполняются запросы к сетевым службам. Для этого клиент подключается к
+            прокси и запрашивает необходимый ресурс, после чего сервер перенаправляет веб-контент получателю (зачастую,
+            из собственного кэша). Частный адрес выполняет сразу несколько функций — защита компьютера от сетевых атак,
+            сохранение анонимности и быстрая загрузка интернет-страниц.
+            Анонимайзер необходим не только для простых пользователей, но специалистов, работающих с продвижением
+            онлайн-бизнеса, таргетированной рекламой, арбитражем трафика и т.д.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Тарифы -->
+  <section class="tariff center" id="tariff">
+    <div class="tariff__content">
+      <div class="tariff__title subtitle">Тарифы</div>
+      <div class="tariff__bloks">
+        <div class="tariff__blok">
+          <div class="tariff__blok-title">
+            <h2>Базовый</h2>
+          </div>
+          <div class="tariff__blok-price">
+            <h3>От 1500 ₽</h3>
+            <div class="tariff__blok-sale">
+              <p>3000 ₽</p>
+              <p>Скидка 50%</p>
+            </div>
+          </div>
+          <a href="/basket.html" class="tariff__blok-btn btn">Заказать</a>
+          <ul class="tariff__blok-ul">
+            <li class="tariff__blok-li">Количество серверов - 1</li>
+            <li class="tariff__blok-li">Хостинг</li>
+            <li class="tariff__blok-li">Готовый сайт</li>
+            <li class="tariff__blok-li">Тех. поддержка</li>
+            <details class="tariff__blok-details">
+              <summary class="tariff__blok-summary">Все функции</summary>
+              <ul class="tariff__blok-summary-ul">
+                <li class="tariff__blok-summary-li no-active">Импорт уже созданых пользователей Кракена</li>
+                <li class="tariff__blok-summary-li no-active">Роли пользователей</li>
+                <li class="tariff__blok-summary-li no-active">Выбор шаблонов сайта</li>
+                <li class="tariff__blok-summary-li no-active">Расширенный функционал сайта</li>
+                <li class="tariff__blok-summary-li no-active">Домен в подарок</li>
+                <li class="tariff__blok-summary-li no-active">Интеграция с вашей платёжной системой</li>
+                <li class="tariff__blok-summary-li no-active">Уникальный дизайн (свой собственный дизайн или Vip шаблон)
+                </li>
+              </ul>
+            </details>
+          </ul>
+
+        </div>
+        <div class="tariff__blok">
+          <div class="tariff__blok-title">
+            <h2>Премиум</h2>
+          </div>
+          <div class="tariff__blok-price">
+            <h3>От 5000 ₽</h3>
+            <div class="tariff__blok-sale">
+              <p>10000 ₽</p>
+              <p>Скидка 50%</p>
+            </div>
+          </div>
+          <a href="/basket.html" class="tariff__blok-btn btn">Заказать</a>
+          <ul class="tariff__blok-ul">
+            <li class="tariff__blok-li">Количество серверов - 1</li>
+            <li class="tariff__blok-li">Хостинг</li>
+            <li class="tariff__blok-li">Готовый сайт</li>
+            <li class="tariff__blok-li">Тех. поддержка</li>
+            <details class="tariff__blok-details">
+              <summary class="tariff__blok-summary">Все функции</summary>
+              <ul class="tariff__blok-summary-ul">
+                <li class="tariff__blok-summary-li">Импорт уже созданых пользователей Кракена</li>
+                <li class="tariff__blok-summary-li">Роли пользователей</li>
+                <li class="tariff__blok-summary-li no-active">Выбор шаблонов сайта</li>
+                <li class="tariff__blok-summary-li no-active">Расширенный функционал сайта</li>
+                <li class="tariff__blok-summary-li no-active">Домен в подарок</li>
+                <li class="tariff__blok-summary-li no-active">Интеграция с вашей платёжной системой</li>
+                <li class="tariff__blok-summary-li no-active">Уникальный дизайн (свой собственный дизайн или Vip шаблон)
+                </li>
+              </ul>
+            </details>
+          </ul>
+
+        </div>
+        <div class="tariff__blok">
+          <div class="tariff__blok-title">
+            <h2>Бизнес</h2>
+          </div>
+          <div class="tariff__blok-price">
+            <h3>От 10000 ₽</h3>
+            <div class="tariff__blok-sale">
+              <p>20000 ₽</p>
+              <p>Скидка 50%</p>
+            </div>
+          </div>
+          <a href="/basket.html" class="tariff__blok-btn btn">Заказать</a>
+          <ul class="tariff__blok-ul tariff__blok-ul-active">
+            <li class="tariff__blok-li">Количество серверов - 1</li>
+            <li class="tariff__blok-li">Хостинг</li>
+            <li class="tariff__blok-li">Готовый сайт</li>
+            <li class="tariff__blok-li">Тех. поддержка</li>
+            <li class="tariff__blok-summary-li">Импорт уже созданых пользователей Кракена</li>
+            <li class="tariff__blok-summary-li">Роли пользователей</li>
+            <li class="tariff__blok-summary-li">Выбор шаблонов сайта</li>
+            <li class="tariff__blok-summary-li">Расширенный функционал сайта</li>
+            <li class="tariff__blok-summary-li">Домен в подарок</li>
+            <li class="tariff__blok-summary-li">Интеграция с вашей платёжной системой</li>
+            <li class="tariff__blok-summary-li">Уникальный дизайн (свой собственный дизайн или Vip шаблон)</li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Особый -->
+  <section class="special center">
+    <div class="special__content">
+      <div class="special__title">
+        <h2>Особый</h2>
+      </div>
+      <div class="special__content-blocks">
+        <div class="special__content-left">
+          <div class="special__left-uls">
+            <ul class="special__left-ul">
+              <li class="special__left-li">Количество серверов - 1</li>
+              <li class="special__left-li">Импорт уже созданых
+                пользователей Кракена</li>
+              <li class="special__left-li">Хостинг</li>
+              <li class="special__left-li">Готовый сайт</li>
+              <li class="special__left-li">Тех. поддержка</li>
+              <li class="special__left-li">Роли пользователей</li>
+              <li class="special__left-li">Выбор шаблонов сайта</li>
+            </ul>
+            <ul class="special__left-ul">
+              <li class="special__left-li">Расширенный функционал сайта</li>
+              <li class="special__left-li">Уникальный дизайн (свой собственный дизайн или VIP шаблон)</li>
+              <li class="special__left-li">Интеграция с вашей платёжной системой</li>
+              <li class="special__left-li">Домен в подарок</li>
+              <li class="special__left-li">Партнерская программа</li>
+              <li class="special__left-li">Перенос вашего сайта</li>
+            </ul>
+          </div>
+        </div>
+        <div class="special__content-right">
+          <div class="special__right-price">
+            <p>Цена по согласованию. <br> Свяжитесь с нами для обсуждения деталей</p>
+          </div>
+          <a href="/basket.html" class="special__right-btn btn">Заказать</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- Обновления -->
+  <section class="update center">
+    <div class="update__content">
+      <div class="update__title-block">
+        <div class="update__title subtitle">Обновления</div>
+        <div class="update__title-text">
+          <p>В ближайших обновлениях системы:</p>
+        </div>
+      </div>
+      <div class="update__blocks">
+        <div class="update__block">
+          <div class="update__block-top">
+            <p>v1.1.74</p>
+            <p>1.07.23</p>
+          </div>
+          <div class="update__block-bottom">
+            <ul class="update__ul">
+              <li class="update__li">Количество серверов 3+1 для тарифа “Бизнес”</li>
+              <li class="update__li">Импорт уже созданых пользователей Кракена и Шмакена</li>
+              <li class="update__li">Безлимитный хостинг</li>
+              <li class="update__li">Маркетинг-стратегия по продвижению Вашего сайта</li>
+              <li class="update__li">Внедрение чат-бота в тех.поддержку</li>
+            </ul>
+          </div>
+        </div>
+        <div class="update__block">
+          <div class="update__block-top update__block-right">
+            <p>v1.2.0</p>
+            <p>1.08.23</p>
+          </div>
+          <div class="update__block-bottom">
+            <ul class="update__ul">
+              <li class="update__li">Количество серверов 3+1 для тарифа “Бизнес”</li>
+              <li class="update__li">Импорт уже созданых пользователей Кракена и Шмакена</li>
+              <li class="update__li">Безлимитный хостинг</li>
+              <li class="update__li">Маркетинг-стратегия по продвижению Вашего сайта</li>
+              <li class="update__li">Внедрение чат-бота в тех.поддержку</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- FAQ questions-->
+  <section class="questions center" id="FAQ">
+    <div class="questions__content">
+      <div class="questions__title subtitle">Часто задаваемые вопросы</div>
+      <div class="questions__blocks">
+        <details class="questions__details">
+          <summary class="questions__summary">Я покупаю только панель управления? </summary>
+          <p>Прокси-сервер является “заменителем” персонального IP-адреса, а также обеспечивает безопасную связь между
+            устройством и веб-ресурсом. С помощью прокси-сервера онлайн выполняются запросы к сетевым службам. Для этого
+            клиент подключается к прокси и запрашивает необходимый ресурс, после чего сервер перенаправляет веб-контент
+            получателю (зачастую, из собственного кэша).</p>
+        </details>
+        <details class="questions__details">
+          <summary class="questions__summary">Могу ли я установить свой домен?</summary>
+          <p>Прокси-сервер является “заменителем” персонального IP-адреса, а также обеспечивает безопасную связь между
+            устройством и веб-ресурсом. С помощью прокси-сервера онлайн выполняются запросы к сетевым службам. Для этого
+            клиент подключается к прокси и запрашивает необходимый ресурс, после чего сервер перенаправляет веб-контент
+            получателю (зачастую, из собственного кэша).</p>
+        </details>
+        <details class="questions__details">
+          <summary class="questions__summary">Можно купить панель управления отдельно?</summary>
+          <p>Прокси-сервер является “заменителем” персонального IP-адреса, а также обеспечивает безопасную связь между
+            устройством и веб-ресурсом. С помощью прокси-сервера онлайн выполняются запросы к сетевым службам. Для этого
+            клиент подключается к прокси и запрашивает необходимый ресурс, после чего сервер перенаправляет веб-контент
+            получателю (зачастую, из собственного кэша).</p>
+        </details>
+        <details class="questions__details">
+          <summary class="questions__summary">Можно купить панель управления отдельно?</summary>
+          <p>Прокси-сервер является “заменителем” персонального IP-адреса, а также обеспечивает безопасную связь между
+            устройством и веб-ресурсом. С помощью прокси-сервера онлайн выполняются запросы к сетевым службам. Для этого
+            клиент подключается к прокси и запрашивает необходимый ресурс, после чего сервер перенаправляет веб-контент
+            получателю (зачастую, из собственного кэша).</p>
+        </details>
+        <details class="questions__details">
+          <summary class="questions__summary">У меня уже есть готовый сайт, но мне нравится ваша система, можно ли
+            перенести данные с моего сайта к вам?</summary>
+          <p>Прокси-сервер является “заменителем” персонального IP-адреса, а также обеспечивает безопасную связь между
+            устройством и веб-ресурсом. С помощью прокси-сервера онлайн выполняются запросы к сетевым службам. Для этого
+            клиент подключается к прокси и запрашивает необходимый ресурс, после чего сервер перенаправляет веб-контент
+            получателю (зачастую, из собственного кэша).</p>
+        </details>
+        <details class="questions__details">
+          <summary class="questions__summary">Какие платёжные системы можно подключить?</summary>
+          <p>Прокси-сервер является “заменителем” персонального IP-адреса, а также обеспечивает безопасную связь между
+            устройством и веб-ресурсом. С помощью прокси-сервера онлайн выполняются запросы к сетевым службам. Для этого
+            клиент подключается к прокси и запрашивает необходимый ресурс, после чего сервер перенаправляет веб-контент
+            получателю (зачастую, из собственного кэша).</p>
+        </details>
+      </div>
+
+    </div>
+  </section>
+  <!-- Реферальная программа -->
+  <section class="program center" id="program">
+    <div class="program__content">
+      <div class="program__content-title">
+        <div class="program__title subtitle">Реферальная программа</div>
+        <div class="program__logo">
+          <a href="./index.html"><img src="img/logo-blocks.png" alt="seaSide"></a>
+        </div>
+      </div>
+      <div class="program__blocks">
+        <div class="program__block-left">
+          <div class="program__text">
+            <p>Реферальная программа - это способ привлечения новых пользователей на сайт через уже зарегистрированных
+              пользователей.</p>
+            <p>Как это работает? Пользователь получает уникальную ссылку, которую он может поделиться с друзьями,
+              знакомыми, подписчиками в социальных сетях</p>
+            <p>и т.д. Если кто-то переходит по этой ссылке и регистрируется на сайте, то пользователь-реферер получает
+              бонусы - это может быть как денежное вознаграждение, так и другие привилегии..</p>
+          </div>
+          <a href="/registration.html" class="program__btn btn">Регистрация</a>
+        </div>
+        <div class="program__block-right">
+          <div class="program__right-img">
+            <img src="./img/program.png" alt="program_img">
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- footer -->
+  <footer class="footer center">
+    <div class="footer__content">
+      <div class="footer__conten-top">
+        <div class="header__logo footer__logo">
+          <a href="./index.html"><img src="img/logo.png" alt="seaSide"></a>
+        </div>
+        <nav class="header__nav footer__nav">
+          <a class="header__link footer__link" href="#description">Описание</a>
+          <a class="header__link footer__link" href="#tariff">Тарифы</a>
+          <a class="header__link footer__link" href="#FAQ">FAQ</a>
+          <a class="header__link footer__link" href="#">Реферальная система</a>
+        </nav>
+        <div class="footer__btns">
+          <a href="/account.html" class="footer__btn"><img src="./img/avatar-footer.svg" alt="avatar-img"></a>
+          <a href="#program" class="footer__btn"><img src="./img/country.svg" alt="country-img"></a>
+        </div>
+        <div id="nav-icon1">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <div class="footer__conten-bot">
+        <a href="#">Copyrights 2022. Developed by Seaside Digital</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="./js/index.js"></script>
+  <script>
+    let burger = document.getElementById('nav-icon1');
+    burger.addEventListener('click', () => {
+      burger.classList.toggle('open');
+    });
+  </script>
+
+</body>
+
+</html>
